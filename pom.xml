@@ -19,7 +19,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
-            <version>8.3.0</version>
+            <version>8.0.33</version>
         </dependency>
 
         <!-- Apache POI для Excel (XLSX) -->
