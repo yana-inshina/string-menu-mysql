@@ -12,9 +12,9 @@ public class Main {
 
     // Настройки подключения (подправь под свою БД/пользователя)
     private static final String DB_URL  =
-        "jdbc:mysql://localhost:3306/string_menu?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
-    private static final String DB_USER = "root";
-    private static final String DB_PASS = "root";
+        "jdbc:mysql://localhost:3306/string_menu?useSSL=false&serverTimezone=UTC";
+    private static final String DB_USER = "app";
+    private static final String DB_PASS = "app123";
 
     private static Connection connection;
     private static final Scanner scanner = new Scanner(System.in);
